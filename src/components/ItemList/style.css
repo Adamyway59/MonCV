@@ -1,0 +1,38 @@
+.item-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.Skills-item-list,
+.Hobbies-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10%;
+}
+
+@media (max-width: 576px) {
+  .Skills-item-list,
+  .Hobbies-item-list {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 8px;
+  }
+}
+
+.item_logo {
+  width: 24px;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.item > span {
+  font-style: italic;
+}

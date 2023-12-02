@@ -1,0 +1,19 @@
+.left-side-header {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.profile_picture {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 40%;
+}
+
+@media (max-width: 576px) {
+  .left-side-header {
+    align-items: center;
+  }
+}
