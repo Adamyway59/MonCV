@@ -1,8 +1,5 @@
 /* eslint-disable react/prop-types */
-function Item(props) {
-  const logo = props.logo;
-  const text = props.text;
-
+function Item({ logo, text }) {
   return (
     <div>
       <div className="item">

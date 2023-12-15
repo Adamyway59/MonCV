@@ -5,8 +5,8 @@
   width: 100%;
 }
 
-.Skills-item-list,
-.Hobbies-item-list {
+.skills-item-list,
+.hobbies-item-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -14,8 +14,8 @@
 }
 
 @media (max-width: 576px) {
-  .Skills-item-list,
-  .Hobbies-item-list {
+  .skills-item-list,
+  .hobbies-item-list {
     flex-direction: row;
     justify-content: space-evenly;
     margin-left: 8px;
